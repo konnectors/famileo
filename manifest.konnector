@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "name": "Famileo",
+  "type": "konnector",
+  "language": "node",
+  "icon": "icon.png",
+  "slug": "template",
+  "source": "git@github.com:konnectors/famileo.git",
+  "editor": "Cozy",
+  "vendor_link": "https://www.famileo.com",
+  "categories": ["other"],
+  "fields": {
+    "login": {
+      "type": "text"
+    },
+    "password": {
+      "type": "password"
+    },
+    "advancedFields": {
+      "folderPath": {
+        "advanced": true,
+        "isRequired": false
+      }
+    }
+  },
+  "data_types": [
+    "photos"
+  ],
+  "screenshots": [],
+  "permissions": {
+    "photos": {
+      "type": "io.cozy.photos"
+    },
+    "files": {
+      "type": "io.cozy.files"
+    },
+  },
+  "developer": {
+    "name": "Cozy Cloud",
+    "url": "https://cozy.io"
+  },
+  "langs": ["fr", "en"],
+  "locales": {
+    "fr": {
+      "short_description": "Récupère les gazettes en PDF",
+      "long_description": "Récupère les gazettes PDF et les range par dossiers",
+      "permissions": {v
+        "photos": {
+          "description": "Utilisé pour sauver les photos"
+        },
+        "files": {
+          "description": "Utilisé pour sauvegarder les gazettes"
+        }
+      }
+    }
+  },
+  "manifest_version": "2"
+}
