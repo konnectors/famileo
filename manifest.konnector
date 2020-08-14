@@ -4,11 +4,11 @@
   "type": "konnector",
   "language": "node",
   "icon": "icon.png",
-  "slug": "template",
+  "slug": "famileo",
   "source": "git@github.com:konnectors/famileo.git",
   "editor": "Cozy",
   "vendor_link": "https://www.famileo.com",
-  "categories": ["other"],
+  "categories": ["others"],
   "fields": {
     "login": {
       "type": "text"
